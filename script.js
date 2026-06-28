@@ -10,12 +10,12 @@ function startDowryCelebration() {
         audioEngine.play()
             .then(() => {
                 // ប្រសិនបើភ្លេងចាក់បានជោគជ័យ បង្ហាញរូបភាពភ្លាមៗ
-                popupDowryView('image_dowry.png');
+                popupDowryView('dowry.png');
             })
             .catch(err => {
                 console.log("Browser ទប់ស្កាត់ការចាក់ស្វ័យប្រវត្ត៖ ", err);
                 // បើទោះជាមានបញ្ហាទប់សំឡេង ក៏ត្រូវបង្ហាញផ្ទាំងរូបភាពសិនដែរ
-                popupDowryView('image_dowry.png');
+                popupDowryView('dowry.png');
             });
     } else {
         audioEngine.pause();
@@ -23,7 +23,7 @@ function startDowryCelebration() {
 }
 
 /**
- * បង្កើតផ្ទាំងចល័ត (Popup Modal) បង្ហាញរូបភាព image_dowry.png ពេញអេក្រង់
+ * បង្កើតផ្ទាំងចល័ត (Popup Modal) បង្ហាញរូបភាព dowry.png ពេញអេក្រង់
  */
 function popupDowryView(srcPath) {
     const overlay = document.createElement('div');
