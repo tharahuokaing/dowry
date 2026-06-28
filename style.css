@@ -1,0 +1,91 @@
+/* កំណត់ពណ៌ស្តង់ដារប្រពៃណីខ្មែរ */
+:root {
+    --gold: #c5a059;
+    --dark-red: #800020;
+    --bg-cream: #fffdf9;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4edd9;
+    font-family: 'Hanuman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 15px;
+}
+
+.dowry-page-container {
+    background-color: var(--bg-cream);
+    max-width: 550px;
+    width: 100%;
+    padding: 30px;
+    border: 3px solid var(--gold);
+    outline: 10px double var(--gold);
+    outline-offset: -18px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.khmer-art-header img, .khmer-art-footer img {
+    width: 100%;
+    height: auto;
+}
+
+.page-title-moul {
+    font-family: 'Moul', serif;
+    color: #555;
+    font-size: 1rem;
+    margin: 15px 0 5px 0;
+    letter-spacing: 1px;
+}
+
+.page-subtitle-moul {
+    font-family: 'Moul', serif;
+    color: var(--dark-red);
+    font-size: 1.3rem;
+    line-height: 1.6;
+    margin: 0 0 20px 0;
+}
+
+.description-text {
+    font-size: 0.95rem;
+    color: #333;
+    line-height: 1.7;
+    padding: 0 10px;
+    margin-bottom: 30px;
+}
+
+.action-wrapper {
+    margin: 30px 0;
+}
+
+/* ស្ទីលប៊ូតុងហែជំនូនដ៏ទាក់ទាញ */
+.btn-play-dowry {
+    background-color: #27ae60;
+    color: white;
+    border: 2px solid #1e8449;
+    font-family: 'Hanuman', serif;
+    font-weight: bold;
+    font-size: 1.05rem;
+    padding: 15px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(39, 174, 96, 0.4);
+    transition: all 0.3s ease;
+}
+
+.btn-play-dowry:hover {
+    background-color: white;
+    color: #27ae60;
+    transform: scale(1.05);
+    box-shadow: 0 7px 20px rgba(39, 174, 96, 0.2);
+}
+
+@media (max-width: 480px) {
+    .page-subtitle-moul { font-size: 1.15rem; }
+    .btn-play-dowry { font-size: 0.95rem; padding: 12px 22px; }
+}
