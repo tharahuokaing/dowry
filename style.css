@@ -34,6 +34,22 @@ body {
     align-items: center;
 }
 
+/* ==========================================================================
+   . DOWRY CONTAINER CARD
+   ========================================================================== */
+.dowry-container {
+  background: var(--card-bg);
+  width: 100%;
+  max-width: 620px;
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: var(--shadow-soft);
+  border: 2px solid var(--secondary-color);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
 /* --- Container / Wrapper Limits --- */
 header, main, footer {
     width: 100%;
