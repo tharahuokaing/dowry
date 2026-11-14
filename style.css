@@ -50,6 +50,18 @@ body {
   overflow: hidden;
 }
 
+/* Header & Footer Ornaments */
+.khmer-art-header img,
+.khmer-art-footer img {
+  max-width: 100%;
+  height: auto;
+  max-height: 80px;
+  margin: 10px 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* --- Container / Wrapper Limits --- */
 header, main, footer {
     width: 100%;
